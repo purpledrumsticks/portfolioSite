@@ -127,7 +127,7 @@ footer {
 		margin-bottom: 0;
 }
 
-@media(min-width: 772px) {
+@media screen and (min-width: 772px) {
 	.mastdiv {
 		margin-top: 10vh;
 	}
@@ -140,9 +140,7 @@ footer {
 	}
 }
 
-@media(min-width: 1120px) {
-	.fullDescription {
-	}
+@media screen and (min-width: 1120px) {
 	.contained {
 		padding: 5vh;
       font-size: 5em;  
@@ -150,14 +148,14 @@ footer {
 }	
 
 
-@media(min-width: 1242px) {
+@media screen and (min-width: 1242px) {
 	.portfolioImages {
 	margin-top: 200px;
 	height: 30%;
 }	
 }
 
-@media(min-width: 730px) {
+@media screen and (min-width: 730px) {
 	.fullDescription {
 		font-size: 3em;
 		padding: 200px 0;
@@ -165,7 +163,7 @@ footer {
 	}
 }
 
-@media(min-width: 1400px) {
+@media screen and (min-width: 1400px) {
 	.fullDescription {
 		font-size: 4em;
 		padding: 250px 0;
@@ -174,7 +172,7 @@ footer {
 
 }
 
-@media(max-width: 250px) {
+@media screen and (max-width: 250px) {
 	body {
 		font-size: .8em;
 	}
