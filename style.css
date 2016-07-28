@@ -84,8 +84,9 @@ body {
 }
 
 .fullDescription {
+	display: inline-block;
 	color: white;
-	font-size: 2em;
+	font-size: 2.5em;
 	padding: 125px 0;
 	margin-right: 40px;
 }
@@ -172,9 +173,9 @@ footer {
 
 }
 
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 320px) {
 	body {
-		font-size: .8em;
+		font-size: 1em;
 	}
 
 	h1 {
@@ -182,7 +183,7 @@ footer {
 	}
 
 	h3 {
-		display: none;
+		display: none.9
 	}
 
 
