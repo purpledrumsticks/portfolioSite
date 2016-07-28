@@ -128,7 +128,26 @@ footer {
 		margin-bottom: 0;
 }
 
-@media screen and (min-width: 772px) {
+/*Media Queries*/
+
+@media(min-width: 500px) {
+	.fullDescription {
+		font-size: 2.7em;
+		padding: 200px 0;
+		margin-right: 17px;
+	}
+}
+
+
+@media(min-width: 730px) {
+	.fullDescription {
+		font-size: 3em;
+		padding: 200px 0;
+		margin-right: 17px;
+	}
+}
+
+@media(min-width: 772px) {
 	.mastdiv {
 		margin-top: 10vh;
 	}
@@ -154,14 +173,6 @@ footer {
 	margin-top: 200px;
 	height: 30%;
 }	
-}
-
-@media screen and (min-width: 730px) {
-	.fullDescription {
-		font-size: 3em;
-		padding: 200px 0;
-		margin-right: 17px;
-	}
 }
 
 @media screen and (min-width: 1400px) {
