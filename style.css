@@ -141,7 +141,8 @@ footer {
 }
 
 @media(min-width: 1120px) {
-
+	.fullDescription {
+	}
 	.contained {
 		padding: 5vh;
       font-size: 5em;  
@@ -169,7 +170,6 @@ footer {
 		font-size: 4em;
 		padding: 250px 0;
 		margin-right: 20px;
-	}
 }
 
 
