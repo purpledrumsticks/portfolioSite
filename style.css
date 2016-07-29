@@ -76,7 +76,9 @@ body {
 }
 
 .description {
-	font-size: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100vw;
 	height: 100vh;
 	margin-bottom: none;
@@ -84,11 +86,10 @@ body {
 }
 
 .fullDescription {
-	display: inline-block;
+	line-height: 120%;
 	color: white;
-	font-size: 2.5em;
-	padding: 125px 0;
-	margin-right: 40px;
+	font-size: 2em;
+	margin-right: 3%;
 }
 
 .mastdiv3 {
@@ -130,19 +131,12 @@ footer {
 
 /*Media Queries*/
 
+
+
 @media(min-width: 500px) {
 	.fullDescription {
-		font-size: 2.7em;
-		padding: 200px 0;
-		margin-right: 17px;
-	}
-}
-
-
-@media(min-width: 730px) {
-	.fullDescription {
 		font-size: 3em;
-		padding: 200px 0;
+		padding: 15% 30px;
 		margin-right: 17px;
 	}
 }
@@ -178,7 +172,6 @@ footer {
 @media screen and (min-width: 1400px) {
 	.fullDescription {
 		font-size: 4em;
-		padding: 250px 0;
 		margin-right: 20px;
 }
 
