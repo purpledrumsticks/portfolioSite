@@ -18,6 +18,18 @@ a:visited {
 	background-attachment: fixed;
 }
 
+.photo {
+	color: #000;
+	font-size: .8em;
+	float: left;
+	padding-left: 15px;
+	cursor: pointer;
+}
+
+.photo:hover {
+	opacity: .5;
+}
+
 
 .heading {
 	margin: 0 auto;
@@ -47,9 +59,9 @@ a:-webkit-any-link {
 .mastdiv2 {
   text-align: center;
   font-size: 2em;
-  color: #000;
+  color: #fff;
 	min-height: 100vh;
-	background-image: url("./img/hontoon.JPG");
+	background-color: #000;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -161,17 +173,3 @@ a:-webkit-any-link {
  		font-size: 4em;
  	}
 }
-
-
-
-
-
-
-/*.mastdiv1 {
-	background: rgba(91, 91, 255, .5);
-  position: absolute;
-  top: 25%;
-  left: 18.5%;
-	border-radius: .5%;
-	border: 5px rgba(91, 91, 255, .5);
-}*/
