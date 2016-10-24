@@ -39,10 +39,17 @@ a:visited {
 	color: #fff;
 }
 
-.contained {
+.linkContainer {
+	display: none;
+}
+
+.mobileLinkContainer {
 	display: inline-block;
+	float: right;
+	padding-right: 15px;
+	padding-top: 5px;
 	height: 50px;
-	cursor: default;
+	cursor: pointer;
 }
 
 a:-webkit-any-link {
@@ -118,6 +125,16 @@ a:-webkit-any-link {
 	   font-size: 10em;
 		 padding-top: 250px;
 		 color: #000;
+	}
+
+	.mobileLinkContainer {
+		display: none;
+	}
+
+	.linkContainer {
+		display: inline-block;
+		height: 50px;
+		cursor: pointer;
 	}
 
 	.link {
