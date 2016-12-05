@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass photoStyle.scss photoStyle.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purpledrumsticks/portfolioSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purpledrumsticks/portfolioSite/issues"
+  },
+  "homepage": "https://github.com/purpledrumsticks/portfolioSite#readme"
+}
