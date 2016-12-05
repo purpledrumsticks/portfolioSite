@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "scss": "sass src/photoStyle.scss dist/photoStyle.css",
+    "imagemin": "imagemin src/photo dist/photo"
   },
   "repository": {
     "type": "git",
