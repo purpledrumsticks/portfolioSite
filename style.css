@@ -10,7 +10,7 @@ a:visited {
 .mastdiv {
     min-height: 100vh;
     text-align: center;
-    background-image: url(./img/virginia.JPG);
+    background-image: url(./photo/img/virginia.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -76,7 +76,7 @@ a:-webkit-any-link {
 .mastdiv3 {
     text-align: center;
     min-height: 100vh;
-    background-image: url(./img/asheville.JPG);
+    background-image: url(./photo/img/asheville.JPG);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
