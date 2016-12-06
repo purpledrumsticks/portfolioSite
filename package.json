@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scss": "sass src/photoStyle.scss dist/photoStyle.css",
-    "imagemin": "imagemin src/photo dist/photo"
+    "scss": "sass src/photoStyle.scss dist/photoStyle.css"
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/purpledrumsticks/portfolioSite#readme",
   "devDependencies": {
+    "imagemin": "^5.2.2",
     "imagemin-cli": "^3.0.0"
   }
 }
