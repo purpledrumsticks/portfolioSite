@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scss": "sass src/photoStyle.scss dist/photoStyle.css"
+    "photoStyle": "sass src/photoStyle.scss dist/photoStyle.css",
+    "homeStyle": "sass src/style.scss dist/style.css",
+    "both": "sass src/style.scss dist/style.css && sass src/photoStyle.scss dist/photoStyle.css"
   },
   "repository": {
     "type": "git",
