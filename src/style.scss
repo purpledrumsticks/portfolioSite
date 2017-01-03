@@ -9,11 +9,25 @@ a:visited {
 
 .mastdiv {
     min-height: 100vh;
-    text-align: center;
     background-image: url(./photo/optimized/virginia.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    .arrows {
+      padding-top: 50vh;
+      .arrow {
+        padding: 5px;
+        cursor: pointer;
+        height: 25px;
+        width: 40px;
+      }
+      .forward {
+        float: right;
+      }
+      .reverse {
+        float: left;
+      }
+    }
 }
 
 .name {
