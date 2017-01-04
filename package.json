@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "photoStyle": "sass src/photoStyle.scss dist/photoStyle.css",
     "homeStyle": "sass src/style.scss dist/style.css",
-    "both": "sass src/style.scss dist/style.css && sass src/photoStyle.scss dist/photoStyle.css"
+    "homeStyleWatch": "sass --watch src/style.scss:dist/style.css",
+    "photoStyle": "sass src/photoStyle.scss dist/photoStyle.css",
+    "hireStyle": "sass src/hireStyle.scss dist/hireStyle.css",
+    "portfolioStyle": "sass src/portfolioStyle.scss dist/portfolioStyle.css",
+    "allStyles": "sass src/style.scss dist/style.css && sass src/photoStyle.scss dist/photoStyle.css"
   },
   "repository": {
     "type": "git",

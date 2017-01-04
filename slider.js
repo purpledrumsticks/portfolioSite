@@ -3,21 +3,25 @@ $(function() {
 
 //contains all of the images to load
   var arr = [
-    'img/bike.jpg',
-    'img/b.jpg',
-    'img/birds.jpg',
-    'img/deep.jpg',
-    'img/deezrows.jpg',
-    'img/farm.jpg',
-    'img/field.jpg',
-    'img/heads.jpg',
-    'img/joey.jpg',
-    'img/lettice.jpg',
-    'img/moarradish.jpg'
+    './dist/photo/optimized/up.JPG',
+    './dist/photo/optimized/asheville.JPG',
+    './dist/photo/optimized/sarbie.JPG',
+    './dist/photo/optimized/caro.JPG',
+    './dist/photo/optimized/dos.JPG',
+    './dist/photo/optimized/fog.JPG',
+    './dist/photo/optimized/hammer.JPG',
+    './dist/photo/optimized/virgin.JPG',
+    './dist/photo/optimized/set.JPG',
+    './dist/photo/optimized/human.JPG',
+    './dist/photo/optimized/monument.JPG',
+    './dist/photo/optimized/marima.JPG',
+    './dist/photo/optimized/mlk.JPG',
+    './dist/photo/optimized/path.JPG',
+    './dist/photo/optimized/nobjob.JPG',
   ];
 
   //loads first background image
-  $('.slider').css('background-image', 'url('+arr[0]+')');
+  $('.mastdiv').css('background-image', 'url('+arr[0]+')');
 
   //changes background when forward arrow is clicked
   $('.forward').click(function() {
@@ -26,8 +30,8 @@ $(function() {
     } else {
       count = 0;
     }
-    $('.slider').fadeOut(800, function() {
-        $('.slider').css('background-image', 'url('+arr[count]+')').fadeIn(800);
+    $('.mastdiv').fadeOut(800, function() {
+        $('.mastdiv').css('background-image', 'url('+arr[count]+')').fadeIn(800);
     });
   });
 
@@ -38,8 +42,8 @@ $(function() {
     } else {
       count = arr.length - 1;
     }
-    $('.slider').fadeOut(800, function() {
-        $('.slider').css('background-image', 'url('+arr[count]+')').fadeIn(800);
+    $('.mastdiv').fadeOut(800, function() {
+        $('.mastdiv').css('background-image', 'url('+arr[count]+')').fadeIn(800);
       });
   });
 

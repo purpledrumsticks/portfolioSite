@@ -1,0 +1,164 @@
+body {
+  font-family: 'Abril Fatface', cursive; }
+
+a:visited {
+  text-decoration: none;
+  color: inherit; }
+
+.mastdiv {
+  min-height: 100vh;
+  background-image: url(./photo/optimized/virginia.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .mastdiv .arrows {
+    padding-top: 50vh; }
+    .mastdiv .arrows .arrow {
+      padding: 5px;
+      cursor: pointer;
+      height: 25px;
+      width: 40px; }
+    .mastdiv .arrows .forward {
+      float: right; }
+    .mastdiv .arrows .reverse {
+      float: left; }
+
+.name {
+  background-color: #000;
+  color: #fff;
+  font-size: 2.5em;
+  float: left;
+  margin: 0;
+  margin-top: 2.5px;
+  margin-left: 10px;
+  padding: 4px; }
+
+.photography, .portfolioLinker, .hireMe {
+  color: #000;
+  background-color: #fff;
+  font-size: 1em;
+  float: left;
+  padding: 7.5px;
+  margin-left: 15px;
+  cursor: pointer; }
+
+.heading {
+  margin: 0 auto;
+  padding: none;
+  padding-top: 35vh;
+  font-size: 3.5em;
+  color: #fff; }
+
+.linkContainer {
+  display: none; }
+
+.mobileLinkContainer {
+  display: inline-block;
+  float: right;
+  padding-right: 15px;
+  padding-top: 5px;
+  height: 50px;
+  cursor: pointer; }
+
+a:-webkit-any-link {
+  color: transparent; }
+
+.link {
+  color: none;
+  background-color: none;
+  inherit: none;
+  height: 30px; }
+
+.mastdiv2 {
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  min-height: 100vh;
+  background-color: #000; }
+
+.fullDescription {
+  margin: 0;
+  padding-top: 25vh; }
+
+.mastdiv3 {
+  text-align: center;
+  min-height: 100vh;
+  background-image: url(./photo/optimized/asheville.JPG);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #000; }
+
+.portfolio {
+  margin: 0;
+  color: #fff;
+  padding-top: 2.5%;
+  font-size: 3em; }
+
+.portfolioImages {
+  width: 95%;
+  margin-top: 50px;
+  border: solid 1px #000; }
+
+/*Media Queries*/
+@media (min-width: 500px) {
+  .heading {
+    font-size: 5em; }
+
+  .portfolioImages {
+    width: 50%;
+    margin-top: 50px;
+    border: solid 1px #000; } }
+@media (min-width: 810px) {
+  .heading {
+    font-size: 10em;
+    padding-top: 250px;
+    color: #000; }
+
+  .mobileLinkContainer {
+    display: none; }
+
+  .linkContainer {
+    display: inline-block;
+    height: 50px;
+    cursor: pointer; }
+
+  .link {
+    opacity: .9;
+    color: none;
+    background-color: none;
+    inherit: none;
+    height: 30px; }
+
+  .link:hover {
+    inherit: none;
+    opacity: 1;
+    cursor: pointer; }
+
+  .mastdiv2 {
+    font-size: 3.5em; }
+
+  .fullDescription {
+    margin: 0;
+    padding-top: 15%; }
+
+  .portfolio {
+    font-size: 5em; }
+
+  .portfolioImages {
+    width: 400px;
+    height: 200px;
+    margin-right: 25px;
+    display: inline-block;
+    opacity: 1; }
+
+  .portfolioImages:hover {
+    opacity: .7; } }
+@media screen and (min-width: 1120px) {
+  .link {
+    height: 25px; }
+
+  .mastdiv2 {
+    font-size: 4em; } }
+
+/*# sourceMappingURL=style.css.map */
