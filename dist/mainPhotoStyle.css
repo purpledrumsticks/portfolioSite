@@ -1,0 +1,97 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 16px; }
+
+.winter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./photo/optimized/coleNmartus.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer; }
+
+.early {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./photo/optimized/laurenSupreme.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer; }
+
+.newYearsRevo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./photo/optimized/mobbin.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer; }
+
+.theEnd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./photo/optimized/frontside.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer; }
+
+.theFall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./photo/optimized/hammer.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer; }
+
+.shitty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./photo/optimized/camel.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer; }
+
+.truckin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./photo/optimized/asheville.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer; }
+
+/*# sourceMappingURL=mainPhotoStyle.css.map */

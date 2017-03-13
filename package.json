@@ -6,6 +6,7 @@
   "scripts": {
     "homeStyle": "sass src/style.scss dist/style.css",
     "homeStyleWatch": "sass --watch src/style.scss:dist/style.css",
+    "mainPhotoStyle": "sass src/mainPhotoStyle.scss dist/mainPhotoStyle.css",
     "photoStyle": "sass src/photoStyle.scss dist/photoStyle.css",
     "hireStyle": "sass src/hireStyle.scss dist/hireStyle.css",
     "portfolioStyle": "sass src/portfolioStyle.scss dist/portfolioStyle.css",
