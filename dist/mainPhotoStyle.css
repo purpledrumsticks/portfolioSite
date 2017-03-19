@@ -94,4 +94,16 @@ h1 {
   background-size: cover;
   cursor: pointer; }
 
+.shootin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./photo/optimized/bsidefamily.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer; }
+
 /*# sourceMappingURL=mainPhotoStyle.css.map */
