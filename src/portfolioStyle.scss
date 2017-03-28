@@ -1,12 +1,34 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav {
+  min-height: 5vh;
+  min-width: 100vw;
+  nav {
+    p {
+      padding: 10px;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+    }
+  }
+}
+
 .mastdiv {
-    font-family: 'Reem Kufi', sans-serif;
-    text-align: center;
-    min-height: 100vh;
-    color: #fff;
-    background-color: #2A2A2A;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: #fff;
+  background-color: #2A2A2A;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 a {
@@ -15,10 +37,10 @@ a {
 }
 
 .portfolio {
-    margin: 0;
-    color: #fff;
-    padding-top: 2.5%;
-    font-size: 3em;
+  margin: 0;
+  color: #fff;
+  padding-top: 2.5%;
+  font-size: 3em;
 }
 
 .bottomDiv {
@@ -26,6 +48,7 @@ a {
   justify-content: center;
   align-items: center;
   min-height: 10vh;
+  min-width: 100vw;
   background-color: #D3D3D3;
 }
 
@@ -72,8 +95,8 @@ a {
 }
 
 .link {
-    color: none;
-    background-color: none;
-    inherit: none;
-    height: 30px;
+  color: none;
+  background-color: none;
+  inherit: none;
+  height: 30px;
 }

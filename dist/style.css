@@ -17,8 +17,14 @@ a:visited {
   background-color: #000;
   background-repeat: no-repeat;
   background-size: cover; }
+  .mastdiv nav {
+    display: flex;
+    flex-direction: row; }
+    .mastdiv nav ul {
+      list-style-type: none;
+      padding: 0; }
   .mastdiv .arrows {
-    padding-top: 50vh; }
+    padding-top: 27.5vh; }
     .mastdiv .arrows .arrow {
       padding: 5px;
       cursor: pointer;

@@ -20,8 +20,16 @@ a:visited {
     background-color: #000;
     background-repeat: no-repeat;
     background-size: cover;
+    nav {
+      display: flex;
+      flex-direction: row;
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+    }
     .arrows {
-      padding-top: 50vh;
+      padding-top: 27.5vh;
       .arrow {
         padding: 5px;
         cursor: pointer;

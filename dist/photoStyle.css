@@ -4,6 +4,12 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif; }
 
+.nav nav {
+  display: flex;
+  flex-direction: row; }
+  .nav nav ul {
+    padding: 0; }
+
 .hireMe {
   margin: 0;
   cursor: pointer;

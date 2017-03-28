@@ -1,8 +1,22 @@
 body {
   font-family: 'Montserrat', sans-serif; }
 
+.nav {
+  min-height: 5vh;
+  min-width: 100vw; }
+  .nav nav p {
+    padding: 10px; }
+  .nav nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0; }
+
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit; }
 
 h1 {
   padding: 10px;
