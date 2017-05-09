@@ -20,27 +20,13 @@ a:visited {
     background-color: #000;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url('./photo/optimized/thisIsYourDream.jpg');
     nav {
       display: flex;
       flex-direction: row;
       ul {
         list-style-type: none;
         padding: 0;
-      }
-    }
-    .arrows {
-      padding-top: 27.5vh;
-      .arrow {
-        padding: 5px;
-        cursor: pointer;
-        height: 25px;
-        width: 40px;
-      }
-      .forward {
-        float: right;
-      }
-      .reverse {
-        float: left;
       }
     }
 }

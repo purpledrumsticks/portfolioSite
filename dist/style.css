@@ -16,24 +16,14 @@ a:visited {
   min-height: 100vh;
   background-color: #000;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-image: url("./photo/optimized/thisIsYourDream.jpg"); }
   .mastdiv nav {
     display: flex;
     flex-direction: row; }
     .mastdiv nav ul {
       list-style-type: none;
       padding: 0; }
-  .mastdiv .arrows {
-    padding-top: 27.5vh; }
-    .mastdiv .arrows .arrow {
-      padding: 5px;
-      cursor: pointer;
-      height: 25px;
-      width: 40px; }
-    .mastdiv .arrows .forward {
-      float: right; }
-    .mastdiv .arrows .reverse {
-      float: left; }
 
 .bottomDiv {
   display: flex;
